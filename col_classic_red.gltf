@@ -15,38 +15,34 @@
     "nodes" : [
         {
             "mesh" : 0,
-            "name" : "Colonial Classic.011",
-            "rotation" : [
-                0,
-                0.7071067690849304,
-                0,
-                0.7071068286895752
-            ],
+            "name" : "Colonial Classic",
             "translation" : [
-                -0.2793999910354614,
+                -0.025400005280971527,
                 0,
-                -0.40640002489089966
+                -0.45719999074935913
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "concrete_grey",
+            "name" : "concrete_red",
             "normalTexture" : {
-                "index" : 0
+                "index" : 0,
+                "scale" : 0.75
             },
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 1
                 },
-                "metallicFactor" : 0
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.6000000238418579
             }
         }
     ],
     "meshes" : [
         {
-            "name" : "Cube.023",
+            "name" : "Cube.004",
             "primitives" : [
                 {
                     "attributes" : {
@@ -73,20 +69,20 @@
     "images" : [
         {
             "mimeType" : "image/png",
-            "name" : "Normal",
-            "uri" : "Normal.png"
+            "name" : "normal_concrete",
+            "uri" : "normal_concrete.png"
         },
         {
             "mimeType" : "image/png",
-            "name" : "Grey",
-            "uri" : "Grey.png"
+            "name" : "concrete_red",
+            "uri" : "concrete_red.png"
         }
     ],
     "accessors" : [
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 252,
+            "count" : 241,
             "max" : [
                 0.0492125004529953,
                 0.030162500217556953,
@@ -102,42 +98,42 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 252,
+            "count" : 241,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 252,
+            "count" : 241,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 756,
+            "count" : 660,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 3024,
+            "byteLength" : 2892,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 3024,
-            "byteOffset" : 3024
+            "byteLength" : 2892,
+            "byteOffset" : 2892
         },
         {
             "buffer" : 0,
-            "byteLength" : 2016,
-            "byteOffset" : 6048
+            "byteLength" : 1928,
+            "byteOffset" : 5784
         },
         {
             "buffer" : 0,
-            "byteLength" : 1512,
-            "byteOffset" : 8064
+            "byteLength" : 1320,
+            "byteOffset" : 7712
         }
     ],
     "samplers" : [
@@ -148,8 +144,8 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 9576,
-            "uri" : "products.bin"
+            "byteLength" : 9032,
+            "uri" : "col_classic_red.bin"
         }
     ]
 }
