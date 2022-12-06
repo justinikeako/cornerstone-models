@@ -13,24 +13,21 @@
 	"nodes": [
 		{
 			"mesh": 0,
-			"name": "Old World Cobble Half.001",
-			"translation": [0.059689998626708984, 0, -0.05841999873518944]
+			"name": "Old World Cobble Half.001"
 		},
 		{
 			"mesh": 1,
-			"name": "Old World Cobble Regular.001",
-			"translation": [-0.059689998626708984, 0, 0]
+			"name": "Old World Cobble Regular.001"
 		},
 		{
 			"mesh": 2,
-			"name": "Old World Cobble Square.001",
-			"translation": [0.059689998626708984, 0, 0.030479999259114265]
+			"name": "Old World Cobble Square.001"
 		}
 	],
 	"materials": [
 		{
 			"doubleSided": true,
-			"name": "concrete",
+			"name": "concrete_shale_brown",
 			"normalTexture": {
 				"index": 0
 			},
@@ -124,23 +121,23 @@
 		{
 			"bufferView": 0,
 			"componentType": 5126,
-			"count": 531,
-			"max": [0.05910832807421684, 0.030162500217556953, 0.02955467626452446],
+			"count": 528,
+			"max": [0.11879833042621613, 0.030162500217556953, -0.028865324333310127],
 			"min": [
-				-0.059108324348926544, -0.030162500217556953, -0.02955467626452446
+				0.0005816741031594574, -0.030162500217556953, -0.0879746749997139
 			],
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 1,
 			"componentType": 5126,
-			"count": 531,
+			"count": 528,
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 2,
 			"componentType": 5126,
-			"count": 531,
+			"count": 528,
 			"type": "VEC2"
 		},
 		{
@@ -152,23 +149,25 @@
 		{
 			"bufferView": 4,
 			"componentType": 5126,
-			"count": 545,
-			"max": [0.05992744117975235, 0.030162500217556953, 0.08989040553569794],
+			"count": 537,
+			"max": [
+				0.00023744298960082233, 0.030162502080202103, 0.08989040553569794
+			],
 			"min": [
-				-0.05992744117975235, -0.030162500217556953, -0.08989040553569794
+				-0.11961743980646133, -0.030162500217556953, -0.08989040553569794
 			],
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 5,
 			"componentType": 5126,
-			"count": 545,
+			"count": 537,
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 6,
 			"componentType": 5126,
-			"count": 545,
+			"count": 537,
 			"type": "VEC2"
 		},
 		{
@@ -180,23 +179,23 @@
 		{
 			"bufferView": 8,
 			"componentType": 5126,
-			"count": 548,
-			"max": [0.059725306928157806, 0.030162500217556953, 0.059725306928157806],
+			"count": 537,
+			"max": [0.11941530555486679, 0.030162500217556953, 0.09020531177520752],
 			"min": [
-				-0.059725306928157806, -0.030162500217556953, -0.05972530320286751
+				-3.530766844050959e-5, -0.030162500217556953, -0.029245303943753242
 			],
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 9,
 			"componentType": 5126,
-			"count": 548,
+			"count": 537,
 			"type": "VEC3"
 		},
 		{
 			"bufferView": 10,
 			"componentType": 5126,
-			"count": 548,
+			"count": 537,
 			"type": "VEC2"
 		},
 		{
@@ -209,63 +208,63 @@
 	"bufferViews": [
 		{
 			"buffer": 0,
-			"byteLength": 6372,
+			"byteLength": 6336,
 			"byteOffset": 0
 		},
 		{
 			"buffer": 0,
-			"byteLength": 6372,
-			"byteOffset": 6372
+			"byteLength": 6336,
+			"byteOffset": 6336
 		},
 		{
 			"buffer": 0,
-			"byteLength": 4248,
-			"byteOffset": 12744
-		},
-		{
-			"buffer": 0,
-			"byteLength": 3816,
-			"byteOffset": 16992
-		},
-		{
-			"buffer": 0,
-			"byteLength": 6540,
-			"byteOffset": 20808
-		},
-		{
-			"buffer": 0,
-			"byteLength": 6540,
-			"byteOffset": 27348
-		},
-		{
-			"buffer": 0,
-			"byteLength": 4360,
-			"byteOffset": 33888
+			"byteLength": 4224,
+			"byteOffset": 12672
 		},
 		{
 			"buffer": 0,
 			"byteLength": 3816,
-			"byteOffset": 38248
+			"byteOffset": 16896
 		},
 		{
 			"buffer": 0,
-			"byteLength": 6576,
-			"byteOffset": 42064
+			"byteLength": 6444,
+			"byteOffset": 20712
 		},
 		{
 			"buffer": 0,
-			"byteLength": 6576,
-			"byteOffset": 48640
+			"byteLength": 6444,
+			"byteOffset": 27156
 		},
 		{
 			"buffer": 0,
-			"byteLength": 4384,
-			"byteOffset": 55216
+			"byteLength": 4296,
+			"byteOffset": 33600
 		},
 		{
 			"buffer": 0,
 			"byteLength": 3816,
-			"byteOffset": 59600
+			"byteOffset": 37896
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6444,
+			"byteOffset": 41712
+		},
+		{
+			"buffer": 0,
+			"byteLength": 6444,
+			"byteOffset": 48156
+		},
+		{
+			"buffer": 0,
+			"byteLength": 4296,
+			"byteOffset": 54600
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3816,
+			"byteOffset": 58896
 		}
 	],
 	"samplers": [
@@ -276,7 +275,7 @@
 	],
 	"buffers": [
 		{
-			"byteLength": 63416,
+			"byteLength": 62712,
 			"uri": "bin/owc.bin"
 		}
 	]
