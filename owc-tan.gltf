@@ -27,7 +27,7 @@
 	"materials": [
 		{
 			"doubleSided": true,
-			"name": "concrete_tan",
+			"name": "concrete",
 			"normalTexture": {
 				"index": 0
 			},

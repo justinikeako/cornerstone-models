@@ -27,7 +27,7 @@
 	"materials": [
 		{
 			"doubleSided": true,
-			"name": "concrete_terracotta",
+			"name": "concrete",
 			"normalTexture": {
 				"index": 0
 			},

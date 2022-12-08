@@ -27,7 +27,7 @@
 	"materials": [
 		{
 			"doubleSided": true,
-			"name": "concrete_charcoal_red",
+			"name": "concrete",
 			"normalTexture": {
 				"index": 0
 			},

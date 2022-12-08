@@ -27,7 +27,7 @@
 	"materials": [
 		{
 			"doubleSided": true,
-			"name": "concrete_sunset_clay",
+			"name": "concrete",
 			"normalTexture": {
 				"index": 0
 			},
